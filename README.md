@@ -1,2 +1,2 @@
 # POResource
-Simple JAX-RS application and tests
+Simple JAX-RS application and tests final version
