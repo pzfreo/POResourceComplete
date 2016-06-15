@@ -1,5 +1,7 @@
 package freo.me.rest;
 
+import io.swagger.annotations.Api;
+
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
@@ -20,6 +22,7 @@ import org.json.JSONException;
 
 // this will be the HTTP URL sub path from the Jetty server’s URI where this 
 // resource/service will be available
+@Api("purchase")
 @Path("purchase")
 public class POResource {
 
