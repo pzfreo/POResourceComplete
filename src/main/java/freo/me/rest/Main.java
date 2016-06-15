@@ -33,7 +33,7 @@ public class Main extends ResourceConfig {
         beanConfig.setVersion("1.0.0");
         beanConfig.setSchemes(new String[]{"http"});
         beanConfig.setHost("localhost:8080");
-        beanConfig.setBasePath("/purchase");
+        beanConfig.setBasePath("/");
         beanConfig.setResourcePackage("freo.me.rest");
         beanConfig.setScan(true);
     }
