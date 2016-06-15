@@ -66,15 +66,6 @@ public class Main extends ResourceConfig {
 
 	}
 	
-	//	    public Set<Class<?>> getClasses() {
-	//	        Set<Class<?>> resources = new HashSet<Class<?>>();
-	//
-	//	        resources.add(POResource.class);
-	//
-	//	        resources.add(ApiListingResourceJSON.class);
-	//	        resources.add(SwaggerSerializers.class);
-	//
-	//	        return resources;
-	//	    }
+
 
 }
