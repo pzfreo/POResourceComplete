@@ -1,0 +1,12 @@
+listenerConfigurations:
+-
+ id: "msf4j-http"
+ host: "127.0.0.1"
+ port: 8080
+ bossThreadPoolSize: 2
+ workerThreadPoolSize: 20
+ execHandlerThreadPoolSize: 60
+ parameters:
+   -
+    name: "execThreadPoolSize"
+    value: 250
