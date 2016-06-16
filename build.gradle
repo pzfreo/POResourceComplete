@@ -37,6 +37,15 @@ dependencies {
 }
 
 
+sourceSets {
+    main {
+        java {
+         //   srcDir 'src'
+            exclude '**/MSF4JApplication.*'
+       }
+   }
+}
+
 // setup for Jetty
 jettyRun.contextPath = '/'
 jettyRun.httpPort = 8080

@@ -22,8 +22,8 @@ import org.json.JSONException;
 
 // this will be the HTTP URL sub path from the Jetty server’s URI where this 
 // resource/service will be available
-@Api("purchase")
-@Path("purchase")
+@Api("/purchase")
+@Path("/purchase")
 public class POResource {
 
 //	OrderInMemory orderSingleton = null;
