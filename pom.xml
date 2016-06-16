@@ -10,7 +10,7 @@
 
 	<groupId>freo.me.rest</groupId>
 	<artifactId>POResource</artifactId>
-	<version>1.0.0</version>
+	
 	<name>Purchase Order Resource</name>
 
 	<properties>
