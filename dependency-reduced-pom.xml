@@ -3,14 +3,13 @@
   <parent>
     <artifactId>msf4j-service</artifactId>
     <groupId>org.wso2.msf4j</groupId>
-    <version>1.0.0</version>
+    <version>1.1.0-SNAPSHOT</version>
     <relativePath>../pom.xml/pom.xml</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId>freo.me.rest</groupId>
   <artifactId>POResource</artifactId>
   <name>Purchase Order Resource</name>
-  <version>1.0.0</version>
   <build>
     <plugins>
       <plugin>
@@ -23,6 +22,37 @@
       </plugin>
     </plugins>
   </build>
+  <repositories>
+    <repository>
+      <releases>
+        <updatePolicy>daily</updatePolicy>
+        <checksumPolicy>ignore</checksumPolicy>
+      </releases>
+      <id>wso2.releases</id>
+      <name>WSO2 Releases Repository</name>
+      <url>http://maven.wso2.org/nexus/content/repositories/releases/</url>
+    </repository>
+    <repository>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <updatePolicy>daily</updatePolicy>
+      </snapshots>
+      <id>wso2.snapshots</id>
+      <name>WSO2 Snapshot Repository</name>
+      <url>http://maven.wso2.org/nexus/content/repositories/snapshots/</url>
+    </repository>
+    <repository>
+      <releases>
+        <updatePolicy>daily</updatePolicy>
+        <checksumPolicy>ignore</checksumPolicy>
+      </releases>
+      <id>wso2-nexus</id>
+      <name>WSO2 internal Repository</name>
+      <url>http://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
