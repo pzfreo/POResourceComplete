@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM alpine:3.5
 MAINTAINER Paul Fremantle (paul@fremantle.org)
 
 RUN apk --update add openjdk8-jre
